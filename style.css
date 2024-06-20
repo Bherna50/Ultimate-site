@@ -1,0 +1,99 @@
+body {
+    background-color:  rgb(17, 17, 17);
+    margin: 0;
+    font-style: normal;
+    color: rgb(221, 221, 204);
+    font-family: Open Sans, -apple-system, Roboto, Helvetica neue, Helvetica, sans-serif;
+}
+header {
+    margin:auto;
+    background-color: rgb(96, 96, 96);
+    color: white;
+}
+a header {
+    float: right;
+    margin-left: 2rem;
+    padding: 0;
+    
+}
+img {
+    display: block;
+    margin: 1rem 0;
+
+
+}
+header img {
+    margin: 0;
+}
+h1 {
+    display: inline-block;
+    font-weight: bold;
+    font-style: normal;
+}
+nav {
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    float: right;
+}
+nav a {
+    text-decoration: underline;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 30px;
+}
+nav a:hover {
+    background-color: orange;
+}
+link a:hover {
+    font-weight: bold;
+}
+main {
+    clear: both;
+    margin: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+section {
+    padding: 0;
+}
+h2 {
+    text-align: center;
+    font-style: normal;
+} 
+p {
+    text-align: center;
+
+}
+h3 {
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+footer {
+    clear: both;
+    margin: auto;
+    background-color: rgb(96, 96, 96);
+    color: rgb(221, 221, 204);
+    text-align: center;
+    padding: 2rem;
+}

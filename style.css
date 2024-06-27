@@ -2,13 +2,15 @@ body {
     background-color: rgb(17, 17, 17);
     margin: 0;
     font-style: normal;
-    color: rgb(221, 221, 204);
+    color: rgb(255, 215, 6);
     font-family: Open Sans, -apple-system, Roboto, Helvetica neue, Helvetica, sans-serif;
+    text-decoration: none;
 }
 header {
     margin:auto;
     background-color: rgb(96, 96, 96);
-    color: white;
+    color: rgb(255, 215, 6);
+    background-image: url(img\ 3.avif);
 }
 a header {
     float: right;
@@ -48,30 +50,22 @@ nav li {
     float: right;
 }
 nav a {
-    text-decoration: underline;
-    color: white;
+    color: rgb(255, 215, 6);
     font-size: 1.2rem;
     font-weight: 700;
     margin: 30px;
 }
 nav a:hover {
-    background-color: yellow;
-}
-link a:hover {
-    font-weight: bold;
+    background-color: black;
 }
 main {
     clear: both;
     margin: auto;
+    background-image: url(jinjer\ img\ 2.webp);
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-section {
-    padding: 0;
+#account {
+    text-decoration: none;
+    color:rgb(255, 215, 6)
 }
 h2 {
     font-style: normal;
@@ -85,14 +79,13 @@ h3 {
     margin: 0;
     text-align: center;
 }
-form {
-    text-align: center;
-}
+
 footer {
     clear: both;
     margin: auto;
     background-color: rgb(96, 96, 96);
-    color: rgb(221, 221, 204);
+    color: rgb(255, 215, 6);
     text-align: center;
     padding: 2rem;
+    background-image: url(img\ 3.avif);
 }
